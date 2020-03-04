@@ -44,6 +44,65 @@ body{
     border: none; /* no borders so we can achieve the look with background transparent which I described above*/
     border-radius: 30px;
     font-size: 14px; /* font size for text in buttons */
+    position: relative; /* This is for color of button, which properties are below ( #btn ), without this
+    color will overlay the text "log in "*/
+}
+
+#btn{ 
+ /* this properties are for color on buttons, which will make it more sense later because this will used in javascript
+ , where we click on register or login, this color area will move, it will work like a toggle button */
+    width: 110px; /* width of this color area */
+    height: 100%; /* height of this color area */ 
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    position: absolute; /* absolute position so we can manipulate with position on this */
+    top:0;
+    left: 0;
+    border-radius: 30px;
+}
+
+.social-icons{
+
+    text-align: center;
+}
+
+.social-icons img{
+
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+.input-box{
+
+    width: 250px;
+    position: absolute;
+    top: 180px;
+}
+
+.input-form{
+
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #777;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.check-box{
+
+    margin: 10px 14px 0 50px;
+    height: 12px;
+    width: 12px;
+}
+
+span{
+
+    font-size: 13px;
+    color: #999;
 }
 
 
