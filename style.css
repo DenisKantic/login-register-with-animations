@@ -20,6 +20,18 @@ body{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    box-shadow: 0 0 20px 9px #c050231f;
-    border-radius: 5px;
+    /* ------------------------------- */
+
+    box-shadow: 0 0 20px 9px #c050231f; /* little box shadow around form-box */
+    border-radius: 5px; /* little border radius around the edges of form-box */
 }
+
+.button-box{  /* area around buttons, where buttons will be placed in that area ( box ) */
+
+    width: 220px; /* width for that area where buttons will be placed*/
+    margin: 35px auto;  /* centering that area */
+    box-shadow: 0 0 20px 9px #ff61241f; /* little box shadow around that area */ 
+    border-radius: 30px; /* border radius for smother edges around buttons and that button area */
+    position: relative; /* inserted this relative position because I don't want to affect the other layout in this box*/
+}
+
