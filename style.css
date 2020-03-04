@@ -8,3 +8,18 @@ body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
+
+.form-box{  /*  white box where are elements are stored */
+
+    width: 380px;
+    height: 460px;
+    background: #fff;
+
+    /* properties for centering the entire white form-box */
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 20px 9px #c050231f;
+    border-radius: 5px;
+}
