@@ -35,3 +35,16 @@ body{
     position: relative; /* inserted this relative position because I don't want to affect the other layout in this box*/
 }
 
+.top-btn{ /*  properties for buttons log in and register */
+
+    padding: 12px 30px; /* width and height for buttons */
+    outline: none; 
+    cursor: pointer;
+    background: transparent; /* with this, it will "remove" the edges and buttons will be like connected, it will look like two buttons in one */
+    border: none; /* no borders so we can achieve the look with background transparent which I described above*/
+    border-radius: 30px;
+    font-size: 14px; /* font size for text in buttons */
+}
+
+
+
