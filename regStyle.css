@@ -51,12 +51,12 @@ body{
 #btn{ 
  /* this properties are for color on buttons, which will make it more sense later because this will used in javascript
  , where we click on register or login, this color area will move, it will work like a toggle button */
-    width: 100px; /* width of this color area */
+    width: 125px; /* width of this color area */
     height: 100%; /* height of this color area */ 
     background: linear-gradient(to right, #ff105f, #ffad06);
     position: absolute; /* absolute position so we can manipulate with position on this */
     top:0;
-    left: 0;
+    left: 95px;
     border-radius: 30px;
     transform: .5s;
 }
@@ -90,7 +90,7 @@ body{
     border-right: 0;
     border-bottom: 1px solid #777;
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
     padding: 10px 0;
     outline: none;
     transition: .5s;
@@ -105,27 +105,8 @@ body{
 
 span{
 
-    font-size: 13px;
+    font-size: 11px;
     color: #999;
-}
-
-.submit-btn{
-
-    width: 85%;
-    margin-top: 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 30px;
-    background: linear-gradient(to right, #ff105f, #ffad06);
-    height: 30px;
-    margin-left: 8%;
-    transition: .5s;
-}
-
-#left-form{
-
-    left: 60px;
 }
 
 .RegSubmit-btn{
@@ -144,5 +125,10 @@ span{
 a {
 
     text-decoration: none;
+}
+
+#right-form{
+
+    left: 60px;
 }
 
